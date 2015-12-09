@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSC.Host", "JSC.Host\JSC.Host.csproj", "{791C2B60-4E08-4F76-9562-2D760229A349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactStarterKit", "ReactStarterKit\ReactStarterKit.csproj", "{C1E6F225-466C-4E58-9C09-6061ADD4CB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekQuiz", "GeekQuiz\GeekQuiz.csproj", "{A827C902-BCF0-4409-BCAB-C36C7A186009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{791C2B60-4E08-4F76-9562-2D760229A349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{791C2B60-4E08-4F76-9562-2D760229A349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{791C2B60-4E08-4F76-9562-2D760229A349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E6F225-466C-4E58-9C09-6061ADD4CB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E6F225-466C-4E58-9C09-6061ADD4CB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E6F225-466C-4E58-9C09-6061ADD4CB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E6F225-466C-4E58-9C09-6061ADD4CB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A827C902-BCF0-4409-BCAB-C36C7A186009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A827C902-BCF0-4409-BCAB-C36C7A186009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A827C902-BCF0-4409-BCAB-C36C7A186009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A827C902-BCF0-4409-BCAB-C36C7A186009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

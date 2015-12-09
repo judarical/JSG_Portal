@@ -9,10 +9,15 @@ using System.Web.Routing;
 
 namespace GeekQuiz
 {
+    using Models;
+
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
         {
+            // Инициализатор базы данных
+            System.Data.Entity.Database.SetInitializer(new TriviaDatabaseInitializer()); 
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
