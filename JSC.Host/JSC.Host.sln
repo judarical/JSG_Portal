@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekQuiz", "GeekQuiz\GeekQu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSC.Host.DomainModels", "JSC.Host.DomainModels\JSC.Host.DomainModels.csproj", "{56EEA0D0-1300-48BF-9208-667DD4A96D99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JS_PostgreCodeGeneration", "JS_PostgreCodeGeneration\JS_PostgreCodeGeneration.csproj", "{D035BE47-BF50-465E-B43D-669675645855}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{56EEA0D0-1300-48BF-9208-667DD4A96D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56EEA0D0-1300-48BF-9208-667DD4A96D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56EEA0D0-1300-48BF-9208-667DD4A96D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D035BE47-BF50-465E-B43D-669675645855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D035BE47-BF50-465E-B43D-669675645855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D035BE47-BF50-465E-B43D-669675645855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D035BE47-BF50-465E-B43D-669675645855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

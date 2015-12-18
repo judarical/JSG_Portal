@@ -1,0 +1,20 @@
+﻿@model JSC.Host.DomainModels.EntityModels.Student
+@{
+    ViewBag.Title = "Test page for CodeFirst index";
+}
+
+<h2>Index Test</h2>
+
+<p>
+    @Html.DisplayFor(model => model.FirstMidName)
+</p>
+<p>
+    @Html.EditorFor(model => model.LastName)    
+</p>
+<p>
+    @Html.DisplayNameFor(model => model.EnrollmentDate)
+</p>
+<p>
+    @Html.DisplayNameFor(model => model.ID)
+</p>
+

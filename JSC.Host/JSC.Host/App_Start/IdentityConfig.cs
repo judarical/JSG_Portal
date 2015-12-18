@@ -39,6 +39,7 @@ namespace JSC.Host
             : base(store)
         {
         }
+
         public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options,
             IOwinContext context)
         {
